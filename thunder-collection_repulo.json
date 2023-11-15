@@ -1,0 +1,67 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "repulo",
+    "dateExported": "2023-11-15T19:25:58.593Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "90098265-a48c-4293-8b6a-ab4413065729",
+            "colId": "a9250157-1630-4d69-9fcd-b0ffc5f3b53d",
+            "containerId": "",
+            "name": "get airlines",
+            "url": "http://localhost:8000/api/airlines",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-15T19:07:54.857Z",
+            "modified": "2023-11-15T19:12:14.449Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f365e469-6c9c-4fe0-8ac7-df374a9aaaf3",
+            "colId": "a9250157-1630-4d69-9fcd-b0ffc5f3b53d",
+            "containerId": "",
+            "name": "post_airlines",
+            "url": "http://localhost:8000/api/airlines/1?name=Benedek&country=Magyarország",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-11-15T19:13:03.652Z",
+            "modified": "2023-11-15T19:19:36.542Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "Benedek",
+                    "isPath": false
+                },
+                {
+                    "name": "country",
+                    "value": "Magyarország",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "12edb0d0-af35-4a08-8329-0c1319e9bd2d",
+            "colId": "a9250157-1630-4d69-9fcd-b0ffc5f3b53d",
+            "containerId": "",
+            "name": "put_airlines ",
+            "url": "http://localhost:8000/api/airlines/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-11-15T19:18:31.488Z",
+            "modified": "2023-11-15T19:24:41.928Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "\r\n  {\r\n    \"name\": \"Máté\",\r\n    \"country\": \"Bulgária\"\r\n  }",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
