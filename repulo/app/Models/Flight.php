@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Flight extends Model
 {
     use HasFactory;
+
+    protected $primaryKey='flight_id';
+
+    protected $fillable = [
+        'date',
+        'airline_id',
+        'limit'
+    ];
 }
